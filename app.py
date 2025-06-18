@@ -115,7 +115,7 @@ st.sidebar.header("⚙️ Settings")
 max_size = st.sidebar.slider(
     "Max Resolution (pixels)", 
     min_value=32, 
-    max_value=256, 
+    max_value=500, 
     value=100,
     help="Higher values take longer to process but produce more detailed art. The image will be resized to fit within this square dimension."
 )
